@@ -3,6 +3,7 @@
 Created on Thu Mar 14 11:58:41 2024
 
 @author: canu
+3D alpha shape algorithm reference:Geun user in https://stackoverflow.com/
 """
 
 from scipy.spatial import Delaunay
