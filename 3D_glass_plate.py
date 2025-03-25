@@ -4,7 +4,10 @@ Created on Thu Mar 14 11:58:41 2024
 
 @author: canu
 3D alpha shape algorithm reference:Geun user in https://stackoverflow.com/
-Takes a 3D point cloud (zeros array in the application) and an alpha parameter. Creates the triangulation of point cloud for the given alpha parameter. 
+Post: https://stackoverflow.com/questions/26303878/alpha-shapes-in-3d
+
+Takes a 3D point cloud (zeros array in the application) and an alpha parameter. Creates the Delaunay triangulation of the point cloud for the given alpha parameter. 
+Alpha Shape Algorithm reference: H. Edelsbrunner and E. P. Mücke, “Three-Dimensional Alpha Shapes,” ACM Transactions on Graphics (TOG), Vol. 13, No. 1, 1994, pp. 43–72. doi: 10.1145/174462.156635.
 """
 
 from scipy.spatial import Delaunay
